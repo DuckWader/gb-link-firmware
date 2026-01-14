@@ -82,11 +82,6 @@ make
 
 Если у вас нет под рукой кабеля GB Link, вы можете распечатать 3D-модели из папки `models/` и использовать Dupont провода для создания собственного разъема GB Link или GBA Link.
 
-1. Распечатайте модель разъема из папки `models/` на 3D-принтере
-2. Подготовьте 4-6 Dupont проводов (в зависимости от модели)
-3. Подключите провода к соответствующим контактам разъема согласно распиновке
-4. Подключите другой конец проводов к Raspberry Pi Pico согласно схеме подключения
-
 ### Использование
 
 1. Подключите Game Boy к Raspberry Pi Pico согласно схеме подключения
@@ -181,10 +176,6 @@ make
 
 If you don't have a GB Link cable, you can print the 3D models from the `models/` folder and use Dupont wires to create your own GB Link or GBA Link connector.
 
-1. Print the connector model from the `models/` folder on a 3D printer
-2. Prepare 4-6 Dupont wires (depending on the model)
-3. Connect the wires to the corresponding connector pins according to the pinout
-4. Connect the other end of the wires to the Raspberry Pi Pico according to the wiring diagram
 
 ### Usage
 
