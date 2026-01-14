@@ -44,12 +44,14 @@
 
 #define MAX_TRANSFER_BYTES 0x40
 
-#define PIN_SCK 0
-#define PIN_SIN 1
+#define PIN_SCK 9
+#define PIN_SIN 10
 #define TEST_PIN 6
 
-uint PIN_SOUT = 2;
-uint SI_PIN = 3;
+uint PIN_SOUT = 13;
+uint SI_PIN = 14;
+
+
 
 bool is_test_pin_grounded() {
   gpio_init(TEST_PIN);
@@ -120,16 +122,16 @@ int main(void)
   // Check the state of TEST_PIN
   if (is_test_pin_grounded()) {
     // GPIO 6 (TEST_PIN) is grounded, update PIN_SOUT and SI_PIN
-    PIN_SOUT = 3;
-    SI_PIN = 4;
+    PIN_SOUT = 13;
+    SI_PIN = 14;
   }
   else {
     // GPIO 6 (TEST_PIN) is not grounded, use default values
-    PIN_SOUT = 2;
-    SI_PIN = 3;
+    PIN_SOUT = 13;
+    SI_PIN = 14;
   }
 
-  //board_init();
+  // board_init();
   buf_count = 0;
   uint cpha1_prog_offs = pio_add_program(spi.pio, &spi_cpha1_program);
   pio_spi_init(spi.pio, spi.sm, cpha1_prog_offs, 8, 4058.838/128, 1, 1, PIN_SCK, PIN_SOUT, PIN_SIN);
