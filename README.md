@@ -196,24 +196,4 @@ This project is licensed under the GNU General Public License v3.0. See the [LIC
 
 ---
 
-## 📝 Примечания / Notes
-
-### Добавление схемы подключения / Adding Wiring Diagram
-
-Чтобы добавить схему подключения:
-
-1. Создайте папку `docs/` в корне проекта (если её нет)
-2. Поместите изображение схемы подключения в папку `docs/`
-3. Назовите файл `wiring-diagram.png` или `wiring-diagram.jpg`
-4. Изображение автоматически отобразится в README
-
-**To add a wiring diagram:**
-
-1. Create a `docs/` folder in the project root (if it doesn't exist)
-2. Place the wiring diagram image in the `docs/` folder
-3. Name the file `wiring-diagram.png` or `wiring-diagram.jpg`
-4. The image will automatically appear in the README
-
----
-
 **Создано для / Created for:** [Музей Вычислительной Техники Дмитрия Бачило](https://t.me/retro_museum) | [Dmitry Bachilo Computer Museum](https://t.me/retro_museum)
