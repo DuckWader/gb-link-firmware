@@ -1,0 +1,20 @@
+#define PIN_SCK 9  (PSC)
+#define PIN_SIN 10 (PSI)
+
+uint PIN_SOUT = 13; (PSO)
+uint SI_PIN = 14; (PSD)
+
+
+Сайт с игрой:
+https://tetris.gblink.io/
+
+Сайт с оригинальным кодом:
+https://github.com/stacksmashing/gb-link-firmware
+
+Оригинальное видео:
+https://youtu.be/KtHu693wE9o?si=Lg1wDW6jH2z7b86g
+
+
+Tetrilink adapter
+Original idea: https://github.com/stacksmashing
+Modded for: https://t.me/retro_museum 

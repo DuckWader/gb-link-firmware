@@ -12,6 +12,8 @@ pico_generate_pio_header(gbusb ${CMAKE_CURRENT_LIST_DIR}/pio/spi.pio)
 
 target_include_directories(gbusb PRIVATE ${CMAKE_CURRENT_LIST_DIR})
 
+target_compile_definitions(gbusb PRIVATE PICO_DEFAULT_LED_PIN=16)
+
 target_sources(gbusb PRIVATE
         main.c
 
